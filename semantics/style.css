@@ -1,0 +1,213 @@
+
+
+
+body{background-color:#eeee;color:#000;font-family: Georgia, "DejaVu Serif", Norasi, serif;
+	font-size:8px;}
+.retour{clear:both;}
+
+#main{width:955px;margin:0 auto;}
+#top{display:flex;align-items: center}
+#logo{width:3%;margin-left:15px}
+#log{flex:1; margin: 0 auto;}
+#toproup{flex:1;}
+#topgroup{height:80px;}
+#topgroup p{text-transform:uppercase;font-size:30px;padding:5px;margin:0;}
+#topgroup ul{float:right;padding:25px 15px ;list-style: none;border: 15px;margin:0;}
+#topgroup li{float:left;}
+#topgroup a{color:#000;text-decoration:none;padding-right:10px;font-size:12px}
+#head{background:url("img/header.jpg");background-repeat:no-repeat;
+  background-size: contain; height:580px;padding:0px;font-size:50px;color:white;margin:0 auto;text-align: center}
+#head p{font-size:50px;color:white;margin:0px;text-align: center; margin-top: 200px; font-style: italic;font-family: Georgia, "DejaVu Serif", Norasi, serif;}
+
+h1{color:#A9A9A9;text-transform:uppercase;height:20px;line-height:68px;font-size:22px;
+font-weight:lighter;font-style:italic;text-align:center;margin:0px;padding-bottom:20px;font-family: Georgia, "DejaVu Serif", Norasi, serif}
+h2{color:#A9A9A9;text-transform:uppercase;font-size:15px;font-family: Georgia, "DejaVu Serif", Norasi, serif;
+font-weight:lighter;font-style:italic;margin:0;text-align:center}
+h3{color:#A9A9A9;text-transform:uppercase;font-size:15px;font-family: Georgia, "DejaVu Serif", Norasi, serif;
+font-weight:lighter;font-style:italic;margin:15px;text-align:left}
+h4{color:#000;text-transform:uppercase;height:20px;line-height:68px;font-size:22px;
+font-weight:lighter;font-style:italic;text-align:center;margin:0px;padding-bottom:20px;font-family: Georgia, "DejaVu Serif", Norasi, serif}
+
+
+#bloc_services{text-align:center;background-color:white;margin:0;padding:0;}
+
+#fronttextone{display:flex;margin:0px;color:#000;text-align:center;font-size:12px;font-style:italic;width:620px; margin: 0 auto;}
+.main_services{flex:1;}
+#Consectetuer p span {font-weight: bold; color:black ;}
+#Consectet p span {font-weight: bold; color:black ;}
+#Omnis p span {font-weight: bold; color:black ;}
+#Dignissimos p span {font-weight: bold; color:black ;}
+.one {text-decoration:underline;}
+.two {text-decoration: line-through;}
+
+
+
+#service_articles{display:flex;}
+.text-left{flex:1;margin:20px;}
+.text-left p{width:150px;margin:0 auto;}
+.text-center{flex:1;margin:20px;}
+.text-center p{width:170px;margin:0 auto;}
+.text-right{flex:1;margin:20px;}
+.text-right p{width:170px;margin:0 auto;}
+
+
+#bloc_news{text-align:center;background-color:white;margin:0;padding:0;height:320px;}
+#article_news{display:flex;margin-right:0px;font-size:10px;}
+
+.text-left1{flex:1;margin:20px;}
+.text-left1 p{width:300px;text-align:justify;margin:0 auto;}
+
+.text-right1{flex:1;margin:20px;}
+.text-right1 p{width:300px;text-align:justify;margin:0 auto;}
+
+
+
+
+
+
+#bloc_skills{text-align:center;background-color:white;margin:0 auto;height:260px;}
+/* Make sure that padding behaves as expected */
+/* {box-sizing: :10px;}*/
+#main_skills{display:flex; width:955px;align-items: center;
+  justify-content: space-around}
+
+/* Container for skill bars */
+#skill_left{margin:100px;}
+.container {
+  
+
+  ; /* Full width */
+  background-color: #ddd; /* Grey background */
+  display:flexbox;
+  margin:15px;
+  width:300px;
+  
+}
+.container {
+  
+  
+  ; /* Full width */
+  background-color: #ddd;
+  
+  /* Grey background */
+}
+
+.skills { 
+	padding:0px;
+   
+   /* Add some padding */
+  color: #808080; /* White text color */
+}
+
+.html {width: 90%; background-color: #808080; } /* Green */
+.css {width: 82%; background-color: #808080;} /* Blue */
+.js {width: 77%; background-color: #808080;} /* Red */
+.php {width: 90%; background-color: #808080;} /* Dark Grey */
+
+#bloc_skills{text-align:center;background-color:white;margin:0 auto;height:260px;}
+#bloc_quote{text-align:center;background-color:white;margin:0 auto;}
+#quote{text-align:center;background-color:white;padding:5px;margin-bottom: 12px;}
+#quote p{font-size: 15px;font-style: italic;padding:15px;}
+
+
+
+
+#img1{width:315px;margin:2;}
+#img2{width:315px;margin:2;}
+#img3{width:315px;margin:2;}
+#img4{width:315px;margin:2;}
+#img5{width:315px;margin:2;}
+#img6{width:315px;margin:2;}
+#img7{width:315px;margin:2;}
+#img8{width:315px;margin:2;}
+#img9{width:315px;margin:2;}
+
+.pictures{display:inline-block;text-align:center}
+.pictures  img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.pictures :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#bloc_contact{background-color:white;margin:0px;padding:5px;height:280px;}
+#contact{display:flex;justify-content: space-around;align-items: center;}
+#contact a{color:black;}
+#contact_left{flex:1;}
+#contact_right{flex:1; align-items: center;
+  justify-content: center}
+
+html, body{
+    margin      : 0 ;
+    font-family : Lucida Grande, Tahoma, Arial, sans-serif ;
+    font-size   : 10px ;
+    top-margin: 0px;
+}
+
+#content {
+    width   : 600px ;
+    margin  :0px auto 0 auto ;
+}
+
+input{
+    width : 290px ;
+    border          : 1px solid #bbb ;
+    border-radius   : 6px ;
+    font-size       : 14px ;
+    padding         : 3px 6px 3px 6px ;
+    box-shadow      : inset 0 1px 1px #DDD;
+}
+
+textarea {
+	width : 290px ;
+	border          : 1px solid #bbb ;
+    border-radius   : 6px ;
+    font-size       : 14px ;
+    padding         : 3px 6px 3px 6px ;
+    box-shadow      : inset 0 1px 1px #DDD;
+}
+
+#bottom{display:flex;align-items: center}
+
+#bottom_right{flex:1; margin: 0 auto;}
+#bottom_left{flex:1; margin: 0 auto;}
+#bottom_right p{text-transform:uppercase;font-size:30px;padding:5px;margin:0;}
+#bottom_right ul{float:right;padding:25px 15px ;list-style: none;border: 15px;margin:0;}
+#bottom_right li{float:left;}
+#bottom_right a{color:#000;text-decoration:none;padding-right:10px;font-size:10px}
+.a{font-weight: bold}
+.b{font-size: 8px}
+.c{font-style: italic}
+
+
+.zoom {
+  
+  transition: transform .1s; /* Animation */
+  width: 315px;
+  height: 236px;
+  margin: 0 auto;
+
+}
+
+.zoom:hover {
+  transform: scale(1.025); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#log  img{
+  -webkit-transition:-webkit-transform 0.9s; // Chrome Safari
+  -moz-transition:-moz-transform 0.9s;       // Mozilla
+  -o-transition:-o-transform 0.9s;           // Opéra
+  -ms-transition:-ms-transform 0.9s;         // IE
+  transition:transform 0.9s;
+}
+ 
+#log  img:hover{
+  -webkit-transform:rotate(2080deg); 
+  -moz-transform:rotate(2080deg);
+  -o-transform:rotate(2080deg); 
+  -ms-transform:rotate(2080deg); 
+  transform:rotate(2080deg);
+}
