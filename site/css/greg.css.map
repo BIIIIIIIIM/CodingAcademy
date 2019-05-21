@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,QAAS;EACP,QAAQ,EAAE,QAAQ;EAElB,MAAM,EAAE,MAAM;EAIZ,aAAK;IACH,WAAW,EAAE,wBAAwB;IACrC,WAAW,EAAE,GAAG;IAChB,cAAc,EAAE,SAAS;IACzB,SAAS,EAAE,IAAI",
-"sources": ["greg.scss"],
-"names": [],
-"file": "greg.css"
-}
