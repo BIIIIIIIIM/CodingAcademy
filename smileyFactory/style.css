@@ -1,0 +1,209 @@
+html{
+    height:100%
+}
+body{
+    background-color:rgb(1, 255, 255);
+    /*background-image:url(image/crazy2.jpg);*/
+    margin:0;
+    padding:0;
+    width:1024px;
+    height:760px;
+    height:100%;
+
+}
+
+
+
+.convoyer{
+    position: absolute;
+    top: 80%; 
+    display: flex;
+    justify-content: center;
+    animation: bounce .1s infinite
+    
+}
+   
+.c1{width:20%; height: 20% ;animation: bounce .1s infinite}
+.c2{width:21%; height: 20% ;animation: bounce .09s infinite}
+.c3{width:20%; height: 20% ;animation: bounce .12s infinite}
+
+.funnel{
+    position: absolute;
+    top: 19%; 
+    display: flex;
+    justify-content: center;
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+.f1{
+    width:26%;
+    height:26%;
+    animation: upd .03s infinite
+}
+.f2{
+    width:26%;
+    height:26%;
+    animation: upd .02s infinite
+}
+.f3{
+    width:26%;
+    height:26%;
+    animation: upd .03s infinite
+}
+.face{
+    
+    margin:10%;
+    margin-top:19%;
+    
+    display: flex;
+    justify-content:flex-start;
+   
+}
+
+.emobody{
+    
+  
+    width:8%;
+    height:8%;
+    
+    
+}
+
+
+  
+.love1{
+    width:8%;
+    height:8%;
+    display:flex; 
+    margin-left:23%;
+    margin-top:-14%; 
+    
+} 
+
+
+.love2{
+    width:8%;
+    height:6%;
+    display:flex; 
+    margin-left:36.6%;
+    margin-top:-4%;
+    
+} 
+
+.sade1{
+    width:8%;
+    height:8%;
+    display:flex; 
+    margin-left:23%;
+    margin-top:-6%; 
+    
+} 
+
+
+.sade2{
+    width:8%;
+    height:6%;
+    display:flex; 
+    margin-left:36.6%;
+    margin-top:-4%;
+    
+} 
+
+.tongue1{
+    width:8%;
+    height:8%;
+    display:flex; 
+    margin-left:23%;
+    margin-top:-6%; 
+    
+} 
+
+
+.tongue2{
+    width:8%;
+    height:6%;
+    display:flex; 
+    margin-left:36.1%;
+    margin-top:-4%;
+    
+} 
+
+.happy1{
+    width:8%;
+    height:8%;
+    display:flex; 
+    margin-left:23%;
+    margin-top:-6%; 
+    
+} 
+
+
+.happy2{
+    width:8%;
+    height:6%;
+    display:flex; 
+    margin-left:36.6%;
+    margin-top:-4%;
+    
+} 
+
+footer{
+    top:98%;
+    display:flex;
+    position: absolute;
+    justify-content: center;
+   }
+
+.bt1{
+    width:8%;
+    height:8%;
+}
+
+.bt2{
+    width:8%;
+    height:8%;
+}
+
+.bt3{
+    width:8%;
+    height:8%;
+}
+.bt4{
+    width:8%;
+    height:8%;
+}
+
+.machiner{
+    width:20%;
+    height:25%;
+    margin-top:18%;
+    margin-left:15%;
+    animation: bounce .12s infinite;
+    z-index:0;
+}
+
+
+
+
+
+
+
+
+@keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0.5px, 0.8px);
+    }
+}
+@keyframes upd {
+    0%{
+
+    }
+    50%{
+        transform: translate(1px,0px);
+    }
+}
