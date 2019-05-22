@@ -76,7 +76,7 @@ body {
 	font-family: 'Nunito', monospace;
 	color: var(--color-text);
 	
-	min-height: 100vh;
+	max-height: 100vh;
 }
 
 .js body {
@@ -211,7 +211,7 @@ main {
 
 .content--layout {
 	grid-template-columns: 100%;
-	padding: 4em 0;
+	
 }
 
 .content--fixed a {
